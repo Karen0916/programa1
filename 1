@@ -1,0 +1,57 @@
+package vector;
+
+
+import javax.swing.*;
+
+
+public class Vector {
+    
+ 
+
+  public static void main(String[] args) {
+        
+        
+          
+                  
+  	  int []vector1= new int[5];
+  	  
+  	
+        
+          int numero;
+    	 
+
+           for(int pos=0; pos<5; pos=pos + 1){
+
+    		numero=Integer.parseInt(JOptionPane.showInputDialog("Digite el numero en la posiciÃ³n"+ pos));
+
+    		
+                
+                 if (numero >8){
+                    
+                 vector1[pos]=numero;
+                    
+    		
+              System.out.println("El numero ingresado es:"+ numero);
+                   
+                 }else {
+                     
+                    JOptionPane.showMessageDialog(null, "Ingrese un nÃºmero mayor a 8");
+                    
+                   
+                    
+        }           
+     }
+  }
+}
+
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+           
+    	
+    
+
